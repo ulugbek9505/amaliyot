@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 15px 0;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+.header__link{
+    color: rgb(34, 34, 34);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header__btn{
+    width: 189px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(222, 46, 84);
+    border-radius: 8px;
+    color: rgb(222, 46, 84);
+    font-family: Open Sans Condensed;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: rgb(255, 255, 255);
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: red;
+}
+.hero{
+    padding-top: 137px;
+    padding-bottom: 217px;
+    background-image: url("./image/image\ 4\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero__btn{
+    width: 189px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+font-family: Open Sans Condensed;
+font-size: 15px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 2px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5 ease-in-out;
+}
+.hero{
+    padding-top: 137px;
+    padding-bottom: 217px;
+    background-image: url("./image/image\ 4\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+}
+.hero__textbox{
+    width: 500px;
+}
+.hero__title{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans Condensed;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+.hero__btn{
+    width: 189px;
+    padding: 10px 0;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Open Sans Condensed;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    border: none;
+    background: rgba(222, 46, 84, 0.8);
+}
+.hero__wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.h1{
+    text-align: center;
+}
+.card__title{
+    margin-left: 268px;
+    display: flex;
+    align-items: center;
+    /* Body text */
+color: rgb(68, 68, 68);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+text-align: center;
+}
+.card__text{
+    display: flex;
+    align-items: center;
+    /* Smaller heading */
+color: rgb(34, 34, 34);
+font-family: Open Sans Condensed;
+font-size: 24px;
+font-weight: 700;
+line-height: 120%;
+text-align: center;
+}
+.bad{
+    width: 600px;
+    margin: 0 auto;
+}
+.divv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.card__text{
+    padding: 24px 0;
+}
+.h2{
+    padding-top: 100px;
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 64px;
+font-weight: 600;
+line-height: 77px;
+letter-spacing: 0px;
+text-align: center;
+}
+.bot4{
+    background-color: aqua;
+}
+.bot5{
+    margin-left: 168px;
+    margin-bottom: 111px;
+}
+.wrapper{
+    display: flex;
+}
+
+.contact_meneger {
+    background-color: white;
+    border-radius: 10px;
+    width: 540px ;
+    height: 331px;
+}
+
+.inp {
+    width: 460px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+
+.botta {
+    width: 460px;
+    height: 39px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.09);
+background: rgb(56, 204, 139);
+color: white;
+}
